@@ -1,0 +1,76 @@
+
+<mat-tab-group mat-align-tabs="center">
+    
+    <mat-tab label="Fechas">
+            <div class="mi-modal">
+                    <button type="button" class="btn btn-primary" (click)="abrirModalF();">Nuevo</button>
+            </div>
+        <div class="card text-center">
+                <h5 class="card-header">Campeonato - Ecuavoley</h5>
+            
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <p class="card-title">Local</p>
+                        <h4 class="card-text">Nombre Equipo</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <br>
+                        <h4 class="card-text">VS</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <p class="card-title">Visitante</p>
+                        <h4 class="card-text">Nombre Equipo</h4>
+                    </div>
+                </div> 
+                <div class="col-sm-12">
+                        <p>Fecha partido</p>
+                        <span class="mi-button">
+                                <button type="button" class="btn btn-success" (click)="abrirModalF();">Actualizar</button>
+                                <button type="button" class="btn btn-danger "(click)="abrirModalS();">Eliminar</button>
+                        </span>
+                </div>
+                
+            </div>
+        </div>
+    </mat-tab>
+    <mat-tab label="Resultados">
+            <div class="mi-modal">
+                    <button type="button" class="btn btn-primary" (click)="abrirModalF();">Nuevo</button>
+            </div>
+        <div class="card">
+            <h5 class="card-header">Jornadas</h5>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <p class="card-title">Local</p>
+                        <h4 class="card-text">Nombre Equipo</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <p class="card-title">Resultado</p>
+                        <h4 class="card-text">0 - 0</h4>
+                        <div class="mi-button">
+                                <button type="button" class="btn btn-success" (click)="abrirModalF();">Actualizar</button>
+                                <button type="button" class="btn btn-danger" (click)="abrirModalS();">Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-body">
+                        <p class="card-title">Visitante</p>
+                        <h4 class="card-text">Nombre Equipo</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </mat-tab>
+</mat-tab-group>
+
+
+

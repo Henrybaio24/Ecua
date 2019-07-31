@@ -1,0 +1,35 @@
+<div class="mi-modal">
+    <button type="button" class="btn btn-primary" (click)="abrirModal();">Nuevo</button>
+</div>
+
+<div class="container">
+  <div class="card text-center">
+    <h5 class="card-header">Lista de Equipos</h5>
+    <div class="table-responsive-sm">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+        <th scope="col">Acciones</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        <span>
+        <td><mat-icon class="green-icon" (click)="abrirModal();" >loop</mat-icon></td>
+        <td><mat-icon color="warn">delete</mat-icon></td>
+      </span>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+</div>
+</div>
